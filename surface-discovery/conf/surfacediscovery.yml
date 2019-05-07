@@ -1,0 +1,41 @@
+# Yaml configuration file for Surface Discovery.
+# Global configuration options are specified in this file.
+
+# The company to run the program against.
+company: Cisco
+profile:
+  website: cisco.com
+  aliases: []
+
+# Should searches be fuzzy. If enabled more results may show up, however, they are not guaranteed
+# to be accurate
+fuzzy_search: False
+
+# How should the output be written? Options are csv & json
+output:
+  - csv
+
+# The log settings for this file
+logs:
+  log_level: INFO
+  log_file: logs/surface_discovery.log
+
+# The output directory. This can be absolute or relative to the main surface_discovery.py script
+output dir: output
+
+# Any results that should be ignored or not followed? For example, these are default
+# placeholders for a company's POC, and can lead to incorrect results
+ignore:
+  arin_poc:
+    - CKN23-ARIN
+    - ONO-ORG-ARIN
+    - BF401-ARIN
+
+
+# API credentials for various modules.
+credentials:
+  clearbit:
+    api_key: abc123
+  linkedin:
+    username: sanitized@sanitized.com
+    password: Sanitized123!
