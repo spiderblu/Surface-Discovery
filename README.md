@@ -10,7 +10,7 @@ ASNs, People of Contact, and network ranges.
 ```
 virtualenv Surface-Discovery-Virt
 . bin/activate
-git clone https://wwwin-gitlab-sjc.cisco.com/mlombana/Surface-Discovery.git
+git clone https://github.com/ubetsnikita/Surface-Discovery
 pip install -Ur requirements.txt
 ```
 
