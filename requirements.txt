@@ -1,0 +1,5 @@
+selenium==3.4.3
+py==1.4.34
+yaycl==0.2.0
+requests==2.10.0
+bs4==0.0.1
